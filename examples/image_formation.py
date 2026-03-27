@@ -9,7 +9,7 @@ cam_pos = [[0, 0, 0], [-2, -2, 0], [2, 2, 0], [-2, 2, 0], [2, -2, 0]]          #
 cam_ori = [[0, 0, 0], [-15 , 15, 0], [15, -15, 0], [15, 15, 0], [-15, -15, 0]] # Unit: [deg]
 
 # Load a point cloud in the homogeneous coordinate
-X = np.loadtxt('../data/box.xyz') # Size: N x 3
+X = np.loadtxt('./data/box.xyz') # Size: N x 3
 
 # Generate images for each camera pose
 K = np.array([[f, 0, cx], [0, f, cy], [0, 0, 1]])
